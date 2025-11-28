@@ -2,48 +2,247 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Redirecting…</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- SEO: this page should never index -->
-  <meta name="robots" content="noindex,follow" />
+  <title>Hub.Creditcard – Overview of The CreditCard Collection</title>
+  <meta name="description" content="Neutral overview of The CreditCard Collection: how hubs, minisites and comparison pages connect to explain credit cards in a structured, educational way." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://hub.creditcard/" />
 
-  <!-- Instant redirect -->
-  <meta http-equiv="refresh"
-        content="0; url=https://choose.creditcard/?utm_source=hub.creditcard&utm_medium=redirect&utm_campaign=creditcard_collection">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Hub.Creditcard – The CreditCard Collection Hub" />
+  <meta property="og:description" content="Learn how The CreditCard Collection is structured: hubs, minisites, comparison pages and documentation-style guides." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://hub.creditcard/" />
+  <meta property="og:image" content="https://choose.creditcard/preview.png?utm_source=hub.creditcard&utm_medium=referral&utm_campaign=og_image" />
 
-  <!-- GA: track redirect source -->
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hub.Creditcard – The CreditCard Collection Hub" />
+  <meta name="twitter:description" content="Independent, educational overview of how the credit-card comparison ecosystem under Choose.Creditcard is organized." />
+  <meta name="twitter:image" content="https://choose.creditcard/preview.png?utm_source=hub.creditcard&utm_medium=referral&utm_campaign=twitter_image" />
+
+  <!-- GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-64FE63JQ3H"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-64FE63JQ3H', {
-      'page_title': 'Redirect hub.creditcard',
-      'page_path': '/redirect/hub.creditcard'
-    });
+    gtag('config', 'G-64FE63JQ3H');
   </script>
 
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #020617;
-      color: #64748b;
-      font-family: system-ui, sans-serif;
-    }
-    a {
-      color: #38bdf8;
-    }
-  </style>
+  <!-- Tailwind for utility classes -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Your shared minisite styles -->
+  <link rel="stylesheet" href="./styles.css" />
 </head>
-<body>
-  <!-- Fallback for browsers without meta refresh -->
-  Redirecting to
-  <a href="https://choose.creditcard/?utm_source=hub.creditcard&utm_medium=redirect&utm_campaign=creditcard_collection">
-    Choose.Creditcard
-  </a>…
+<body class="bg-slate-950 text-slate-100">
+  <header class="site-header">
+    <div class="nav-inner max-w-6xl">
+      <div class="brand">
+        <div class="cc-logo">CC</div>
+        <div class="brand-text">
+          <div class="brand-title">Hub.Creditcard</div>
+          <div class="brand-subtitle">The CreditCard Collection Overview Hub</div>
+        </div>
+      </div>
+      <nav class="nav-links" aria-label="Page navigation">
+        <a href="#overview">Overview</a>
+        <a href="#mechanics">How It Works</a>
+        <a href="#compare">Compare</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="cc-page">
+    <!-- Breadcrumb -->
+    <div class="cc-breadcrumb">
+      <a href="https://choose.creditcard/?utm_source=hub.creditcard&utm_medium=referral&utm_campaign=breadcrumb">Home</a>
+      &nbsp;›&nbsp;
+      Hub.Creditcard
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>The Hub for The CreditCard Collection</h1>
+        <p class="hero-lead">
+          The CreditCard Collection is built as hubs and spokes: topic hubs on Choose.Creditcard, and focused minisites on premium .creditcard domains. This page explains how everything connects in a transparent, documentation-style way.
+        </p>
+        <a class="cta" href="https://choose.creditcard/?utm_source=hub.creditcard&utm_medium=referral&utm_campaign=hero_cta">
+          Go to the main comparison hub
+        </a>
+      </div>
+    </section>
+
+    <!-- Content sections -->
+    <section id="overview" class="section">
+      <h2>What Is The CreditCard Collection?</h2>
+      <p>The CreditCard Collection is an independent, educational ecosystem about credit cards and payment systems. It combines a main comparison hub at Choose.Creditcard with multiple topic hubs and dozens of minisites on descriptive .creditcard domains.</p>
+      <p>Each minisite explains a single concept — such as travel cards, technology, loyalty programs or credit scores — and then links back to neutral comparison and documentation pages on the main hub.</p>
+    </section>
+
+    <section id="mechanics" class="section">
+      <h2>How Hubs and Minisites Fit Together</h2>
+      <p>The structure is designed to be predictable. Most pages fall into one of three roles: hubs, spokes or infrastructure pages.</p>
+      <ul class="list">
+        <li><strong>Hubs</strong> – overview pages on Choose.Creditcard (for example travel, technology, rewards, protections).</li>
+        <li><strong>Spokes</strong> – minisites on .creditcard domains that explain one idea in depth and link back to the relevant hub.</li>
+        <li><strong>Infrastructure pages</strong> – legal, privacy, methodology and directory pages that describe how the project works.</li>
+      </ul>
+      <p>This hub-and-spoke structure makes it easier to keep educational content separate from product listings and to keep explanations consistent across many domains.</p>
+    </section>
+
+    <section class="section">
+      <h2>Types of Hubs Inside the Network</h2>
+      <p>Within The CreditCard Collection, hubs are grouped by topic rather than by brand or issuer. Common categories include:</p>
+      <p>
+        <ul class="list">
+          <li><strong>Travel &amp; FX hubs</strong> – how cards behave abroad, FX fees, travel rewards and protections.</li>
+          <li><strong>Technology &amp; payments hubs</strong> – card rails, NFC, wallets, virtual cards and authentication.</li>
+          <li><strong>Loyalty &amp; rewards hubs</strong> – airline, hotel and bank-point ecosystems.</li>
+          <li><strong>Credit score &amp; rebuild hubs</strong> – how card usage interacts with files and scoring models.</li>
+          <li><strong>Business &amp; freelance hubs</strong> – cards used for company, freelance or side-hustle expenses.</li>
+        </ul>
+      </p>
+      <p>Hub pages are meant to be starting points. They summarise the landscape and then link down to narrower guides and minisites for more detailed reading.</p>
+    </section>
+
+    <section class="section">
+      <h2>Spokes, Redirects and Documentation Pages</h2>
+      <p>Not every .creditcard domain is a full article. Some domains host minisites, others act as simple redirects into the closest relevant hub or documentation page.</p>
+      <p>In all cases, the goal is clarity: users should quickly see whether they are on an explainer page, a comparison page or a structural page (privacy, terms, disclaimers). Marketing-style “best card” claims are intentionally avoided.</p>
+    </section>
+
+    <section class="section">
+      <h2>Neutrality, Disclosures and Independence</h2>
+      <p>The project is operated by ronarn AS and is designed to be transparent about roles and relationships. When commercial links are present, they are clearly marked and do not change the core educational content.</p>
+      <p>Hub.Creditcard itself does not recommend individual cards. It describes how the ecosystem is organized so that readers can navigate to the right hubs and documentation and interpret product information more confidently.</p>
+    </section>
+
+    <!-- Comparison block -->
+    <section id="compare" class="section">
+      <h2>Comparing Hubs, Minisites and Infrastructure Pages</h2>
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Page Type</th>
+              <th>Primary Role</th>
+              <th>What You Can Expect</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Topic hubs</td>
+              <td>Overview and navigation</td>
+              <td>High-level explainer, internal links to relevant guides and minisites.</td>
+            </tr>
+            <tr>
+              <td>Minisites</td>
+              <td>Focused explainer</td>
+              <td>One concept per page, neutral language, links back to the matching hub.</td>
+            </tr>
+            <tr>
+              <td>Comparison pages</td>
+              <td>Structured product views</td>
+              <td>Tables, filters and documentation-style notes, not promises of approval.</td>
+            </tr>
+            <tr>
+              <td>Infrastructure pages</td>
+              <td>Trust and methodology</td>
+              <td>Privacy, terms, disclaimers and editorial standards.</td>
+            </tr>
+            <tr>
+              <td>Redirect-only domains</td>
+              <td>Simple navigation aids</td>
+              <td>Take visitors straight to the most relevant hub or minisite.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small">
+        For concrete product comparisons and topic hubs, visit
+        <a href="https://choose.creditcard/?utm_source=hub.creditcard&utm_medium=referral&utm_campaign=comparison_section">
+          Choose.Creditcard
+        </a>.
+      </p>
+    </section>
+
+    <!-- Cluster links -->
+    <section class="section">
+      <h2>Explore Structural &amp; Navigation Microsites</h2>
+      <div class="cluster-grid">
+        <a class="cluster-card" href="https://network.creditcard/?utm_source=hub.creditcard&utm_medium=referral&utm_campaign=cluster_network">
+          <h3>Network.Creditcard</h3>
+          <p>How card networks route, authorize and settle transactions.</p>
+        </a>
+        <a class="cluster-card" href="https://tech.creditcard/?utm_source=hub.creditcard&utm_medium=referral&utm_campaign=cluster_tech">
+          <h3>Tech.Creditcard</h3>
+          <p>Card technology, NFC, wallets and virtual cards.</p>
+        </a>
+        <a class="cluster-card" href="https://comparecard.creditcard/?utm_source=hub.creditcard&utm_medium=referral&utm_campaign=cluster_comparecard">
+          <h3>CompareCard.Creditcard</h3>
+          <p>Documentation-style comparison structure explained.</p>
+        </a>
+        <a class="cluster-card" href="https://directory.creditcard/?utm_source=hub.creditcard&utm_medium=referral&utm_campaign=cluster_directory">
+          <h3>Directory.Creditcard</h3>
+          <p>Index of hubs, minisites and support domains.</p>
+        </a>
+        <a class="cluster-card" href="https://guides.creditcard/?utm_source=hub.creditcard&utm_medium=referral&utm_campaign=cluster_guides">
+          <h3>Guides.Creditcard</h3>
+          <p>Long-form educational guides on key topics.</p>
+        </a>
+        <a class="cluster-card" href="https://support.creditcard/?utm_source=hub.creditcard&utm_medium=referral&utm_campaign=cluster_support">
+          <h3>Support.Creditcard</h3>
+          <p>Project contact details, FAQs and support information.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Collection section -->
+    <section class="section">
+      <h2>Part of The CreditCard Collection</h2>
+      <p class="small">
+        Hub.Creditcard is one spoke in <strong>The CreditCard Collection</strong> — a network of focused microsites operated by ronarn AS. Each site explains a single concept or structural element and then connects you to neutral comparison tools.
+      </p>
+      <p class="small">
+        We do not issue cards. We summarize documentation, describe system behaviour and link to external providers where you can read full terms yourself.
+      </p>
+      <p class="small">
+        This site is informational only and does not provide financial, investment or legal advice. Always rely on official documentation for final decisions.
+      </p>
+
+      <!-- Hub / main comparison snippet -->
+      <p class="text-xs text-slate-500 mt-6">
+        This page connects to the
+        <a href="https://choose.creditcard/?utm_source=hub.creditcard&utm_medium=referral&utm_campaign=hub_hub"
+           class="font-medium hover:text-slate-900">
+          main comparison and navigation hub
+        </a>
+        on <a href="https://choose.creditcard/" class="font-medium hover:text-slate-900">Choose.Creditcard</a>,
+        which organises topic hubs, minisites and structural pages across The CreditCard Collection.
+      </p>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="section">
+      <h2>Ready to Navigate the Collection?</h2>
+      <p class="small">
+        Use Hub.Creditcard as an orientation layer — then move on to topic hubs, minisites and comparison pages depending on whether you want explanations, structure or product documentation.
+      </p>
+      <a class="cta" href="https://choose.creditcard/?utm_source=hub.creditcard&utm_medium=referral&utm_campaign=bottom_cta">
+        Go to Choose.Creditcard
+      </a>
+    </section>
+  </main>
+
+  <footer class="mini-footer">
+    <p class="mini-footer-main">© 2025 The CreditCard Collection — ronarn AS</p>
+    <p class="mini-footer-contact">
+      Contact: <a href="mailto:support@cc.creditcard">support@cc.creditcard</a>
+    </p>
+  </footer>
 </body>
 </html>
